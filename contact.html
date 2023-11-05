@@ -43,7 +43,7 @@
         </nav>
     </header>
     <main>
-        <div style="padding-top: 50px;"></div>
+<!--        <div style="padding-top: 50px;"></div>
         <form action="https://formsubmit.co/jayasamyece@gmail.com" method="POST">
             <input type="text" name="name" required>
             <input type="text" name="address1" required>
@@ -51,10 +51,47 @@
             <input type="text" name="zip" required>
             <textarea type="text" name="comments" required></textarea>
             <input type="email" name="email" required>
-            <input type="hidden" name="_next" value="https://jayasamyece.github.io/contact">
+            <input type="hidden" name="_next" value="https://jayasamyece.github.io/thankyou">
             <input type="hidden" name="_subject" value="New submission from your website!">
             <button type="submit">Send</button>
-       </form>
+       </form>-->
+       <section class="section-contact">
+        <div class="contact-img">
+            <img src="images/contact-img.avif" alt="image">
+        </div>
+        <div class="div-form">
+            <form action="https://formsubmit.co/jayasamyece@gmail.com" method="POST">
+                <div class="div-name">
+                <div class="firstname">
+                    <label for="txtfirstName">First Name<span class="label-sup">*</span></label>
+                    <input type="text" id="txtfirstName" name="firstName" required>
+                </div>
+                <div class="lastname">
+                    <label for="txtLastName">Last Name</label>
+                    <input type="text" id="txtLastName" name="lastName">
+                </div>
+                </div>
+                <div class="email">
+                    <label for="txtEmail">Email<span class="label-sup">*</span></label>
+                    <input type="email" id="txtEmail" name="email" required>
+                </div>
+                <div class="phonenumber">
+                    <label for="nPhoneNumber">Phone Number</label>
+                    <input type="number" id="nPhoneNumber" name="phoneNumber">
+                </div>
+                <div class="comments">
+                    <label for="taComments">Comments<span class="label-sup">*</span></label>
+                    <textarea id="taComments" name="comments" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" id="sSubmit" name="submit" value="Submit">
+                    <input type="reset" id="rReset" name="reset" value="Reset">
+                </div>
+                <input type="hidden" name="_next" value="https://jayasamyece.github.io/thankyou">
+                <input type="hidden" name="_subject" value="New submission from your website!">
+            </form>
+        </div>
+       </section>
     </main>
     <footer>
         <div class="div-footer">
