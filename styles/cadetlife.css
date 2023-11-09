@@ -222,3 +222,140 @@ main {
     font-size: 1.15rem;
     line-height: 1.8;
 }
+.rocketry-mobile-display{
+    display: none;
+}
+@media screen and (max-width:1023px) {
+    .div-cadetlife-above{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-cadetlife{
+        width: 100%;
+    }
+    .div-cadetlife > h1{
+        text-align: center;
+        margin: 0;
+    }
+    .div-cadetlife + div{
+        font-size: 1rem;
+    }
+    .div-above-h3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-h3{
+        width: 100%;
+        margin: 15px;
+    }
+    .div-h3 > h3{
+        font-size: 1.15rem;
+    }
+    .div-phase-1 h2{
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+    .div-phase-1 p{
+        font-size: 0.95rem;
+    }
+    .title{
+        font-size: 0.95rem !important;
+        padding-bottom: 3px;
+    }
+    .text{
+        font-size: 0.75rem;
+    }
+    .div-ol{
+        padding: 20px 0 20px 0px;
+    }
+    .olcards li::before{
+        padding-inline: 0 !important;
+    }
+    .olcards li .content{
+        gap: 0 0 !important;
+        --inlinePadding: 0.05em !important;
+    }
+    .div-phase-2 h2{
+        font-size: 0.95rem;
+        padding-bottom: 5px;
+    }
+    .div-phase-2 p{
+        font-size: 0.85rem;
+    }
+    .div-phase-2-fitness{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .div-fitness{
+        width: 250px;
+        height: 350px;
+        align-self: center;
+    }
+    .div-phase-2-fitness h3{
+        font-size: 1.15rem;
+        text-align: center;
+        margin: 15px 0;
+    } 
+    .div-phase-2-fitness p{
+        font-size: 0.95rem;
+        padding: 0;
+        text-align: left;
+        line-height: 1.6;
+    }
+    .rocketry-div-a{
+        height: 15px;
+        width: 100%;
+    }
+    .rocketry-div-b{
+        background-image: url(../images/cadet-life-mobile.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .rocketry-div-c{
+        display: none;
+    }
+    .rocketry-mobile-display{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .rocketry-mobile-img{
+        width: 100%;
+        height: 310px;
+    }
+    .rocketry-mobile-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .rocketry-mobile-display h3{
+        padding: 0 10px;
+        text-align: center;
+    }
+    .rocketry-mobile-img + div{
+        padding: 0 15px 20px 15px;
+        font-size: 0.95rem;
+        text-align: inherit;
+    }
+ }
+@media screen and (max-width:430px) {
+    .rocketry-div-b {
+        background-image: url(../images/cadet-life-mobile.png);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.rocketry-mobile-img{
+    width: 100%;
+    height: 160px;
+}
+.rocketry-mobile-img img{
+    width: 100%;
+    height: 100%;
+}
+}
