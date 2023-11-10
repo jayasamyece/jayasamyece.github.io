@@ -147,9 +147,13 @@ text-align: center;
     }
         .image-wrapper{
         width: 100%;
+        text-align: center;
     }
         .image-wrapper img{
           width: 175px;
+    }
+    .banner-content{
+        width:80%;
     }
     .banner-content h1{
         font-size: 1.05rem;

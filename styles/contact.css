@@ -172,11 +172,20 @@ input[type='reset']:hover {
 
     #sSubmit {
         margin-right: 10%;
-        max-width: 200px;
+        width: 20%;
     }
 
     #rReset {
-        max-width: 200px;
+        width: 20%;
 
     }
+}
+@media screen and (max-width:430px) {
+    #rReset{
+        width: 35%;
+        }
+        #sSubmit{
+            width: 35%;
+            padding: 8px 12px;
+        }
 }

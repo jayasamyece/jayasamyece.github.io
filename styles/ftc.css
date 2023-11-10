@@ -87,6 +87,7 @@ margin-top: 50px;
         display: flex;
         flex-direction: column;
         width: 94%;
+        margin: 0 auto;
     }
     .ftc-div-b{
         width: 100%;
@@ -105,6 +106,7 @@ margin-top: 50px;
         text-align: -webkit-auto;
     }
     .flex-fct-b {
+        width: 94%;
         display: flex;
         flex-direction: column-reverse;
     }
